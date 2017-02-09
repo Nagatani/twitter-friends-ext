@@ -1,4 +1,6 @@
-.button-text:not(.Icon) {
+.button-text.follow-text:not(.Icon),
+.button-text.following-text:not(.Icon),
+.button-text.unfollow-text:not(.Icon) {
   font-size: 0px;
 }
 .button-text.follow-text::after,
