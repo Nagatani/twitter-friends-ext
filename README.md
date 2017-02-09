@@ -1,2 +1,4 @@
 # twitter-friends-ext
-フレンズ拡張
+Twitterをジャパリパークにする拡張
+
+私からは以上です。

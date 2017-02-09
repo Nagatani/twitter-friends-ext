@@ -1,0 +1,13 @@
+{
+    "name": "Twitter Friends",
+    "description": "Twitterのフォローボタンをフレンズにするやつ",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": [
+        "https://twitter.com/*"
+    ],
+    "content_scripts": [{
+        "matches": ["https://twitter.com/*"],
+        "css": ["twitter-friends.css"]
+    }]
+}

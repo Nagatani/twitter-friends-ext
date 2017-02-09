@@ -1,0 +1,17 @@
+.button-text:not(.Icon) {
+  font-size: 0px;
+}
+.button-text.follow-text::after,
+.button-text.following-text::after,
+.button-text.unfollow-text::after {
+  font-size: 14px;
+}
+.button-text.follow-text::after {
+  content: "フレンズになる";
+}
+.button-text.following-text::after {
+  content: "フレンズ";
+}
+.button-text.unfollow-text::after {
+  content: "フレンズをやめる";
+}
