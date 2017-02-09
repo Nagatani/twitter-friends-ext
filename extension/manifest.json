@@ -2,11 +2,8 @@
     "name": "Twitterをジャパリパークにするやつ",
     "short_name": "TwitterJapariparkAddon",
     "description": "Twitterのフォローボタンをフレンズに変更するカスタムCSS - すごーい！たのしー！",
-    "version": "0.94",
+    "version": "0.95",
     "manifest_version": 2,
-    "permissions": [
-        "https://twitter.com/*"
-    ],
     "content_scripts": [{
         "matches": ["https://twitter.com/*"],
         "css": ["twitter-friends.css"]
