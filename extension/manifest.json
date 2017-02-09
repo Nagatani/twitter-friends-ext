@@ -2,7 +2,7 @@
     "name": "Twitterをジャパリパークにするやつ",
     "short_name": "すごーい！たのしー！",
     "description": "Twitterのフォローボタンをフレンズに変更するカスタムCSS",
-    "version": "0.91",
+    "version": "0.92",
     "manifest_version": 2,
     "permissions": [
         "https://twitter.com/*"

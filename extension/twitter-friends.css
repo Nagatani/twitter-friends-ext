@@ -1,19 +1,24 @@
-.button-text.follow-text:not(.Icon),
-.button-text.following-text:not(.Icon),
-.button-text.unfollow-text:not(.Icon) {
+.follow-text:not(.Icon),
+.following-text:not(.Icon),
+.unfollow-text:not(.Icon) {
   font-size: 0px;
 }
-.button-text.follow-text::after,
-.button-text.following-text::after,
-.button-text.unfollow-text::after {
+.follow-text::after,
+.following-text::after,
+.unfollow-text::after {
   font-size: 14px;
 }
-.button-text.follow-text::after {
+.small.follow-text::after,
+.small.following-text::after,
+.small.unfollow-text::after {
+  font-size: 13px;
+}
+.follow-text::after {
   content: "フレンズになる";
 }
-.button-text.following-text::after {
+.following-text::after {
   content: "フレンズ";
 }
-.button-text.unfollow-text::after {
+.unfollow-text::after {
   content: "フレンズをやめる";
 }
