@@ -1,3 +1,7 @@
+.user-actions-follow-button {
+  width: 142px;
+  transition: all 0.3s;
+}
 .follow-text:not(.Icon),
 .following-text:not(.Icon),
 .unfollow-text:not(.Icon) {
@@ -8,9 +12,9 @@
 .unfollow-text::after {
   font-size: 14px;
 }
-.small.follow-text::after,
-.small.following-text::after,
-.small.unfollow-text::after {
+.small .follow-text::after,
+.small .following-text::after,
+.small .unfollow-text::after {
   font-size: 13px;
 }
 .follow-text::after {
@@ -21,4 +25,21 @@
 }
 .unfollow-text::after {
   content: "フレンズをやめる";
+}
+/* プロフィール画像をホバーしたときのスタイルを調整 */
+#profile-hover-container {
+  width: auto;
+}
+#profile-hover-container>.profile-card.ProfileCard {
+  width: 400px;
+}
+#profile-hover-container>.profile-card.ProfileCard.with-banner .ProfileCard-bg {
+  background-size: cover;
+}
+#profile-hover-container .ProfileCard-content {
+  width: 100%;
+  font-size: 12px;
+}
+#profile-hover-container .ProfileCardStats-statLink {
+  text-align: center;
 }
