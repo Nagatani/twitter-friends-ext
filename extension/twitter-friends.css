@@ -2,7 +2,8 @@
   width: 142px;
   transition: all 0.3s;
 }
-.permalink .user-actions-follow-button {
+.permalink .user-actions-follow-button,
+.ProfileNav-item .user-actions-follow-button {
   width: 172px;
 }
 .follow-text:not(.Icon),
