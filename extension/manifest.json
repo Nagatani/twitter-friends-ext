@@ -2,7 +2,7 @@
     "name": "Twitterをジャパリパークにするやつ",
     "short_name": "TwitterJapariparkAddon",
     "description": "Twitterをジャパリパークに変更するカスタムCSS - わーい！たのっしー！",
-    "version": "0.97",
+    "version": "0.971",
     "manifest_version": 2,
     "icons": {
       "16": "icon16.png",
